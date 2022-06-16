@@ -1,0 +1,15 @@
+Existe um jeito de colocar arquivos de legendas no Html dentro da tag video.
+Para utilizar, basta adicionar a tag "<track>" depois de adicionar os formatos dos videos.
+
+Exemplo:
+
+<video width="320" height="240" controls>
+  <source src="miranha.mp4" type="video/mp4">
+  <source src="miranha.ogg" type="video/ogg">
+  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+</video>
+
+kind = legendas
+srclang = Colocar a linguagem abreviada. Exemplo: pt-br
+label = Linguagem. Exemplo: português

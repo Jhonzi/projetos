@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes e Elementos</title>
+    <style>
+        body{
+            background-color: black;
+            font: normal 16px Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: aliceblue;
+            text-align: center;
+        }
+        a{
+            color: beige;
+            text-decoration: none;
+           
+
+        }
+        ul{
+            color: azure;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+            font-weight: bold;
+        }
+        .link::after{
+            content: ' [link]';
+            text-decoration: none;
+            color: rgb(182, 143, 219);
+        }
+        p{
+            color: rgb(246, 252, 252);
+            text-align: justify;
+        }
+       
+    </style>
+</head>
+<body>
+  <h1>Personalizando links</h1>
+  <ul>
+      <li><a href="https://www.marvel.com/" target="_blank" rel="External" class="link">Marvel Site</a></li>
+      <li><a href="https://www.youtube.com/channel/UCItRs-h8YU1wRRfP637614w" target="_blank" rel="External" class="link">Canal do Youtube</a></li>
+      <li><a href="https://disney.com.br/" target="_blank" rel="External" class="link">Disney Site</a></li>
+      
+  </ul>
+        <p>
+          Esses links usados acima, são apenas demonstração de Pseudo-Class e Pseudo-Element.
+        </p>
+
+    <a href="pag016.html" target="_self" rel="prev" >Voltar</a>
+    <a href="pag018.html" target="_self" rel="next" >Avançar</a>
+</body>
+</html>

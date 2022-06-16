@@ -1,0 +1,53 @@
+H1
+Exclusivos
+H1
+[Menu]
+>Home
+>Plataformas
+>>Xbox
+>>Play
+>Sobre
+
+
+H2
+Qual a sua importância?
+H2
+
+P
+Os exclusivos são uma parte importante de cada plataforma de jogos, e apesar da sua existência limitar algumas pessoas a jogar aquele jogo por está em outra plataforma, sua existência é inquestionável.
+P 
+
+[Foto]
+
+H2
+Os exclusivos fazem as pessoas comprarem console?
+H2
+
+P 
+Ter ou não exclusivos não é o principal ponto de uma pessoa comprar um console, mas querendo ou não, é uma parte importante que pesa na decisão de cada um, fazendo muitos comprar um certo console apenas pelos seus exclusivos. Como é o caso do famoso [Mark] Nintendo Switch [Mark]
+P 
+
+[Video do BrksEDU sobre os exclusivos]
+
+H2
+Meus Exclusivos Favoritos de cada plataforma
+H2
+
+P 
+Os exclusivos não fazia muita parte da minha vida, afinal quando eu era criança, todo console rodava todos os jogos, basta você escolher em qual quer jogar. Eu não estava totalmente errado, afinal se pode jogar vários jogos em qualquer plataforma escolhida, mas isso não funciona para os exclusivos.
+P 
+P
+Meu primeiro contato com o termo exclusivo, veio depois de descobrir que o [Mark] God of War [Mark] não funcionaa no xbox, apenas no playstation. Isso me fez gostar mais do playstation por muito tempo, até ganhar meu xbox360 e conhecer [Mark] Halo [Mark]. 
+P 
+
+H3
+Plataformas de Exclusivos:
+H3
+
+[Logo do play (link)]
+background-image: url(https://wallpaperscmscwm.azurewebsites.net/Power%20Your%20Dreams%20%E2%80%93%20Possibility/xboxone.png?download) ;
+    background-attachment: fixed;
+[Logo do Xbox (link)]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hoXpncDOmAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: #a3e6fa;
+    font: 16px arial, sans-serif;
+
+}
+
+h1#principal{
+    background-color: #87D4EB;
+}
+
+h1{
+ color: #3D606B;
+ text-align: center;
+ 
+}
+
+p{
+    text-align: justify;
+}
+
+.ultimo{
+    color: #ab6161;
+}
+.meio{
+    color: #abaa61;
+}
+.inicio{
+    color: #6c61ab;
+}
