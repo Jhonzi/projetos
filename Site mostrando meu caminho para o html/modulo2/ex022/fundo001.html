@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagem de fundo</title>
+    <style>
+        h1{
+            color: rgb(0, 5, 51);
+            text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.342);
+        }
+        body{
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+        .fundo{
+            border: 2px solid black;
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: aquamarine;
+        }
+        #img{
+            background-color: red;
+        }
+        #img2{
+            background-image: linear-gradient(to bottom, black, blue, rgb(54, 0, 54));
+        }
+        #img3{
+            background-image: url('imagens/pattern003.png');
+        }
+    </style>
+</head>
+<body>
+    <h1>Vamos testar imagem de fundo!</h1>
+    <div class="fundo" id="img">
+
+    </div>
+    <div class="fundo" id="img2">
+
+    </div>
+    <div class="fundo" id="img3">
+
+    </div>
+</body>
+</html>
