@@ -5,21 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histórico Html</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/index.css">
 </head>
-<body>
-    <h1>Histórico do meu Caminho</h1>
-    <p>
-        Site destinado a apresenntar minha caminhada para o aprendizado completo do html. <br>
-        Passando por todos os ensinamentos divididos em cápitulos e modulos.
-    </p>
-    <img src="olho.png" alt="Olho"> <hr>
+<body>   
+    <header>
+        <nav>
+            <ul id="lista">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="modulos.html">Modulos</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+            </ul>
+            <img id="barbie" src="imagens/barbie.jpg" alt="">
+        </nav>
+        <h1 class="center">
+            Hístorico do meu Caminho
+        </h1>
+            <p class="center">
+                Site Demonstrando meu caminho pelo aprendizado do HTML e CSS
+            </p>
 
-    <a href="modulo1/pag001.html" target="_blank" rel="next">Clique aqui para seguir do modulo 1</a> <br>
-    <a href="modulo2/pag001.html" target="_blank" rel="next">Clique aqui para seguir do modulo 2</a> <br>
-    <a href="modulo3/pag001.html" target="_blank" rel="next">Clique aqui para seguir do modulo 3</a> <br>
-    <a href="modulo4/pag001.html" target="_blank" rel="next">Clique aqui para seguir do modulo 4</a> <br>
-    <a href="modulo5/pag001.html" target="_blank" rel="next">Clique aqui para seguir do modulo 5</a> <br>
-    
+    </header>
+    <main>
+        <section id="cont1">
+                <div id="p">
+                    <p class="paragrafo">
+                        Bem-Vindo! Esse site foi construido para demonstrar meu caminho pelo desenvolvimento web.
+                    
+                    </p>
+                    <p class="paragrafo">
+                        A divisão dele é feita em modulos. Segue abaixo para acompanhar.
+                    </p>
+                </div>
+
+        </section>
+        <section id="cont2">
+            <h2>
+                Links
+            </h2>
+
+            <div id="borda">
+                <a href="#">Modulo 1</a>
+                <a href="#">Modulo 2</a>
+                <a href="#">Modulo 3</a>
+                <a href="#">Modulo 4</a>
+                <a href="#">Modulo 5</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Site criado por Jhon. Acesse meu <a href="">GitHub</a>
+        </p>
+    </footer>
 </body>
 </html>

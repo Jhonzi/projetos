@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+}
+body{
+    height: 100vh;
+    background: #575FFF url('../imagens/fundo-madeira.jpg') bottom center no-repeat ;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.452);
+    box-shadow: -4px 1px 5px rgba(0, 0, 0, 0.212);
+    background-size: cover;
+}
+#lista{
+    list-style: none;
+}
+#lista li{
+    display: inline;
+}
+nav a{
+    display: inline-block;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    padding: 12px 16px;
+}
+nav a:hover{
+    background-color: #ffffff85 ;
+    transition: background-color 0.5s;
+}
+header, main{
+    margin-top: 10px;
+}
+
+div{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+div img{
+    width: 550px;
+    height: 320px;
+}
+h1{
+    
+    color: aliceblue;
+    font-size: 3em;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.letra{
+    text-align: center;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.486);
+}
