@@ -38,18 +38,6 @@ nav a:hover{
     background-color: #ffffff85 ;
     transition: background-color 0.5s;
 }
-#pica{
-    position: absolute;
-    top: 18%;
-    left: 2%;
-    transform: scaleX(-1);
-}
-#poca{
-    position: absolute ;
-    top: 18%;
-    left: 94.5%;
-
-}
 main{
     margin: 20px;
     padding: 5px;

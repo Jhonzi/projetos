@@ -6,17 +6,10 @@
     padding: 0px;
     font-family: 'Open sans', Arial, Helvetica, sans-serif;
 } 
-body{
-    background-color: rgb(200, 228, 253);
-}
 header h1{
    margin: 20px;
    text-align: center;
 }
-header p{
-    margin: 20px;
-    text-align: center;
- }
 header hr{
     margin: 20px;
 }
@@ -42,35 +35,16 @@ nav a:hover{
     transition: background-color 0.5s;
 }
 main{
+    margin: auto;
     margin: 30px;
     max-width: 1200px;
     min-width: 400px;
-    margin: auto;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
-
 }
-section h2{
-    margin: 20px 0px;
+section p{
+    margin-bottom: 10px;
     text-align: center;
 }
-section{
-    padding: 10px;
-    text-align: justify;
-}
-div{
-  width: 640px;
-  margin: auto;
-}
-div > iframe{
+picture img{
+    display: block;
     margin: auto;
-    margin: 10px 0px;
-    padding: 5px;
 }
-#esquerda{
-    position: absolute;
-    top: 328%;
-    left: 3%;
-}
-

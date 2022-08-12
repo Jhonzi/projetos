@@ -6,92 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listas</title>
     <link rel="shortcut icon" href="favicons/lista.ico" type="image/x-icon">
-    <style>
-        ul{
-            list-style-type: disc;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/pag06.css">
 </head>
 <body>
-    <h1>Vamos fazer uma lista?</h1>
-    <hr>
-    <p>
-        Quem não adora uma lista não é mesmo? (A menos que seja de afazeres). <br>
-        Aproveitando a ideia, que tal fazermos uma lista do que vimos ate agora?
-        <ul>
-            <li>Inicio</li>
-            <li>Paragrafos e quebras de linhas</li>
-            <li>Emojis &#x1F630; </li>
-            <li>Imagens</li>
-            <li>Formatações de textos</li>
-            <li>?</li>
-            <li>?</li>
-            <li>?</li>
-            <li>?</li>
-            <li>?????????</li>
-        </ul>
-        Opa, acho que ainda falta bastante coisa, então vamos ver uma lista de jogos?
-    </p>
-    <h2>Jogos que mais joguei em minha vida e suas respectivas plataformas</h2>
-    <ol type="I">
+    <header>
+        <nav>
+            <ul id="lista">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../modulos.html">Modulos</a>
+                </li>
+                <li>
+                    <a href="../sobre.html">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            Listas
+        </h1>
 
-        <li>Gameboy</li>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Vamos fazer uma lista?</h2>
+            <p>
+                Quem não adora uma lista não é mesmo? (A menos que seja de afazeres). <br>
+                Aproveitando a ideia, que tal fazermos uma lista do que vimos ate agora?
+                <ul id="inicio">
+                    <li>Inicio</li>
+                    <li>Paragrafos e quebras de linhas</li>
+                    <li>Emojis &#x1F630; </li>
+                    <li>Imagens</li>
+                    <li>Formatações de textos</li>
+                    <li>Listas (vendo agora)</li>
+                    <li>?</li>
+                    <li>?</li>
+                    <li>?</li>
+                    <li>?????????</li>
+                </ul>
+                Opa, acho que ainda falta bastante coisa, então vamos ver uma lista de jogos?
+            </p>
+        </section>
+        <section>
+            <h2>Jogos que mais joguei em minha vida e suas respectivas plataformas</h2>
+            <ol id="game" type="I">
+                <li><strong>Gameboy</strong></li>
+                <ul>
+                    <li>Pokémon</li>
+                    <li>The Legend of Zelda</li>
+                </ul>
+                <li><strong>Playstation</strong></li>
+                <ul>
+                    <li>Crash</li>
+                    <li>God of War</li>
+                    <li>Spider Man</li>
+                    <li>Downhill</li>
+                    <li>Grand Theft Auto</li>
+                    <li>Motoqueiro Fantasma</li>
+                    <li>Resident Evil</li>
+                    <li>God Hand</li>
+                </ul>
+                <li><strong>Xbox</strong></li>
+                <ul>
+                    <li>Halo</li>
+                    <li>Assasins Creed</li>
+                    <li>Mortal Kombat</li>
+                    <li>Doom</li>
+                    <li>PES</li>
+                    <li>Lego Marvel</li>
+                    <li>Battlefield</li>
+                </ul>
+                <li><strong>Pc</strong></li>
+                <ul>
+                    <li>The sims</li>
+                    <li>Bioshock</li>
+                    <li>Minecraft</li>
+                    <li>Skyrim</li>
+                    <li>Fallout</li>
+                    <li>Stardew Valley</li>
+                    <li>Terraria</li>
+                    <li>Dark souls</li>
+                </ul>
+            </ol>
+        </section>
+        <section>
+            <h2>Que tal uma "lista" com o significado?</h2>
+            <h3>O que significa "Porra"?</h3>
+            <dl id="sign">
+                <dt><strong>Porra</strong></dt>
+                <dd>interjeição
+                    expressão de surpresa, espanto, dor ou aborrecimento. <br>
+                    Pedaço de pau; porrete, cacete.</dd>
+            </dl>
+        </section>
+    </main>
 
-        <ul>
-            <li>Pokémon</li>
-            <li>The Legend of Zelda</li>
-        </ul>
-
-        <li>Playstation</li>
-
-        <ul>
-            <li>Crash</li>
-            <li>God of War</li>
-            <li>Spider Man</li>
-            <li>Downhill</li>
-            <li>Grand Theft Auto</li>
-            <li>Motoqueiro Fantasma</li>
-            <li>Resident Evil</li>
-            <li>God Hand</li>
-        </ul>
-
-        <li>Xbox</li>
-
-        <ul>
-            <li>Halo</li>
-            <li>Assasins Creed</li>
-            <li>Mortal Kombat</li>
-            <li>Doom</li>
-            <li>PES</li>
-            <li>Lego Marvel</li>
-            <li>Battlefield</li>
-        </ul>
-
-        <li>Pc</li>
-
-        <ul>
-            <li>The sims</li>
-            <li>Bioshock</li>
-            <li>Minecraft</li>
-            <li>Skyrim</li>
-            <li>Fallout</li>
-            <li>Stardew Valley</li>
-            <li>Terraria</li>
-            <li>Dark souls</li>
-        </ul>
-
-    </ol>
-
-    <h2>O que significa "Porra"?</h2>
-    <dl>
-        <dt>Porra</dt>
-        <dd>interjeição
-            expressão de surpresa, espanto, dor ou aborrecimento. <br>
-            Pedaço de pau; porrete, cacete.</dd>
-    </dl>
-
-    <a href="pag007.html"><img src="imagens/next.png" alt=""></a>
-    <a href="pag005.html"><img src="imagens/back.png" alt=""></a>
-    <a href="pag001.html"><img src="imagens/back-hard.png" alt=""></a>
 </body>
 </html>

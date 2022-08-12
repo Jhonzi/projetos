@@ -6,9 +6,6 @@
     padding: 0px;
     font-family: 'Open sans', Arial, Helvetica, sans-serif;
 } 
-body{
-    background-color: rgb(200, 228, 253);
-}
 header h1{
    margin: 20px;
    text-align: center;
@@ -42,35 +39,23 @@ nav a:hover{
     transition: background-color 0.5s;
 }
 main{
+    margin: auto;
     margin: 30px;
+    padding: 5px;
     max-width: 1200px;
     min-width: 400px;
-    margin: auto;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
-
 }
-section h2{
-    margin: 20px 0px;
+ul, ol{
+    list-style-position: inside;
+}
+h2{
     text-align: center;
+    margin: 20px 0px;
 }
-section{
-    padding: 10px;
-    text-align: justify;
-}
-div{
-  width: 640px;
-  margin: auto;
-}
-div > iframe{
-    margin: auto;
+h3{
     margin: 10px 0px;
-    padding: 5px;
 }
-#esquerda{
-    position: absolute;
-    top: 328%;
-    left: 3%;
+#game{
+    columns: 2;
+    margin-left: 250px ;
 }
-
